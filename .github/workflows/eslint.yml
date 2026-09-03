@@ -13,6 +13,6 @@ jobs:
     - name: Run Super-Linker
       uses: github/super-linker@v4
       env:
-      DEFAULT_BRANCH: main
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+       DEFAULT_BRANCH: main
+       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
